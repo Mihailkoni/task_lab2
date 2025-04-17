@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Удаление столбца из таблицы</title>
+</head>
+<body>
+    <h3>Топ браузеров</h3>
+    <table id="test">
+        <tr>
+            <th>Браузеры</th>
+            <th>Доля рынка</th>
+        </tr>
+        <tr>
+            <td>Google Chrome</td>
+            <td>63.33%</td>
+        </tr>
+        <tr>
+            <td>Apple Safari</td>
+            <td>13.13%</td>
+        </tr>
+        <tr>
+            <td>Microsoft Edge</td>
+            <td>10.46%</td>
+        </tr>
+        <tr>
+            <td>Mozilla Firefox</td>
+            <td>5.96%</td>
+        </tr>
+    </table>
+    
+    <button onclick="changeTable('test', 1)">Удалить второй столбец</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
